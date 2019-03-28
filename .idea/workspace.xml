@@ -8,10 +8,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4306" />
     <option name="y" value="336" />
     <option name="width" value="734" />
@@ -28,6 +37,11 @@
             <path>
               <item name="Udemy-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udemy-course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Udemy-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udemy-course" type="462c0819:PsiDirectoryNode" />
+              <item name="P16-Deep-Learning-AZ" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -65,8 +79,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3832" y="-8" width="1456" height="2576" extended-state="7" />
-    <editor active="true" />
+    <frame x="3832" y="-8" width="1456" height="2576" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
@@ -86,5 +99,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Test">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
