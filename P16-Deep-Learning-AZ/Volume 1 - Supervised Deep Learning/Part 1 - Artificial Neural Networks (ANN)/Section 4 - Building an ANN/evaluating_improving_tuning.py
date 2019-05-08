@@ -108,6 +108,18 @@ def build_classifier():
     classifier.add(Dense(units = 1, kernel_initializer = 'uniform', activation = 'sigmoid'))
     classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
     return classifier
+
+"SELECT SCORING OF YOUR CHOICE"
+# from sklearn.metrics import make_scorer, accuracy_score, precision_score, recall_score, f1_score
+# scoring = {'accuracy' : make_scorer(accuracy_score),
+#            'precision' : make_scorer(precision_score),
+#            'recall' : make_scorer(recall_score),
+#             'f1_score' : make_scorer(f1_score)}
+# classifier = KerasClassifier(build_fn = build_classifier, batch_size = 10, epochs = 100)
+# F1 = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10, n_jobs = -1,scoring =scoring)
+# mean = F1.mean()
+# variance = F1.std()
+
 classifier = KerasClassifier(build_fn = build_classifier, batch_size = 10, epochs = 100)
 accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10, n_jobs = -1)
 mean = accuracies.mean()
